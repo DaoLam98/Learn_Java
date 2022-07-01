@@ -6,7 +6,7 @@ JDBC - Java Database Conectivity, là một API chuẩn để kết nối 
 
 ## Kiến trúc JDBC
 
-![image](image/jdbc3.png)
+![image](../image/jdbc3.png)
 
 - JDBC API: Cho phép chương trình Java thực thi các câu lệnh SQL và truy xuất kết quả. Một số lớp và interface quan trọng được định nghĩa trong JDBC API như sau:
 - DriverManager: Đóng vai trò quan trọng trong kiến trúc JDBC. Nó sử dụng một số quy trình điều khiển dành riêng cho cơ sở dữ liệu để kết nối hiệu quả các ứng dụng doanh nghiệp với database  
@@ -36,11 +36,11 @@ JDBC - Java Database Conectivity, là một API chuẩn để kết nối 
 ### Chuẩn bị database  
 Trong ví dụ này mình sẽ sử dụng MySQL. Mình có một bảng `users` với cấu trúc sau: 
 
-![image](image/users.PNG)    
+![image](../image/users.PNG)    
 
 Thêm một số dữ liệu vào bảng users  
 
-![image](image/data.PNG)  
+![image](../image/data.PNG)  
 
 ### Cài đặt thư viện  
 
