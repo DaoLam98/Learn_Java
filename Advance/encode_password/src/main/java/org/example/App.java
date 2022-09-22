@@ -22,5 +22,7 @@ public class App
         boolean valuate = BCrypt.checkpw(password, encode);
         System.out.println(valuate);
 
+
     }
+
 }
